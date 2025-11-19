@@ -65,6 +65,9 @@ public class UnionOfArraysWithDuplicates {
     }
 
 //    using two pointer
+
+
+
 public static ArrayList<Integer> findUnionUsingTwoPointer(int[] a, int[] b) {
     ArrayList<Integer> result = new ArrayList<>();
     int i = 0, j = 0;
