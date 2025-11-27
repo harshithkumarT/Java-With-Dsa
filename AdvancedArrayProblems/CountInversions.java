@@ -1,4 +1,4 @@
-package AdvancedProblems;
+package AdvancedArrayProblems;
 
 public class CountInversions {
     static int inversionCount(int [] arr) {

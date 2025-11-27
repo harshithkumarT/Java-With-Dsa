@@ -1,6 +1,4 @@
-package AdvancedProblems;
-
-import java.util.HashMap;
+package AdvancedArrayProblems;
 
 public class MejorityELement {
     //brute force approach

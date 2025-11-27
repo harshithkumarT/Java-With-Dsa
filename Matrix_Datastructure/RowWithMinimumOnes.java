@@ -1,7 +1,7 @@
 package Matrix_Datastructure;
 
-public class RowwithMinimum1s {
-    static int minRow(int [][] mat) {
+public class RowWithMinimumOnes {
+    public static int minRow(int [][] mat) {
         // code here
         int minimum = Integer.MAX_VALUE;
         int ansRow  = 1;
@@ -24,7 +24,10 @@ public class RowwithMinimum1s {
     }
     public static void main(String[]args){
         int [][] mat= {
-            {1, 1, 1, 1}, {1, 1, 0, 0}, {0, 0, 1, 1}, {1, 1, 1, 1}
+                {1,1,1,1},
+                {1,1,0,0},
+                {0,0,1,1},
+                {1,1,1,1}
         };
         int ans = minRow(mat);
         System.out.print(ans);

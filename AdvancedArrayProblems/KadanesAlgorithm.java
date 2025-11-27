@@ -1,4 +1,4 @@
-package AdvancedProblems;
+package AdvancedArrayProblems;
 
 public class KadanesAlgorithm {
     public static int maxSubarraySum(int[] arr) {
